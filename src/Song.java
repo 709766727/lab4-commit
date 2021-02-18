@@ -5,41 +5,42 @@ public class Song {
 	private String title;
 	private String artist;
 	private int[] time;
+	/**
+	 * Initialize a Song class. 
+	 * @param title Song's title
+	 * @param artist Song's artist
+	 * @param  time Songs's time
+	 * ...
+	 */
 	
 	public Song(String title, String artist, int[] time) {
 		this.title = title;
 		this.artist = artist;
 		this.time = Arrays.copyOf(time, time.length);
 	}
-	/**
-	 * Summary sentence for this block of code. 
-	 * @this.title title
-	 * @this.artist artist
-	 * @this.time  time
-	 * ...
-	 */
 	
+	/**
+	 * get songs' title.
+	 * @return title Songs' title
+	 */
 	public String getTitle() {
 		return title;
 	}
 	/**
-	 * Summary sentence for this block of code.
-	 * @return title
+	 * get songs' artist.
+	 * @return artist Songs' artist
+	 * ...
 	 */
 	public String getArtist() {
 		return artist;
 	}
 	/**
-	 * Summary sentence for this block of code.
-	 * @return artist
+	 * get songs' time.
+	 * @return time Get song's time 
 	 * ...
 	 */
 	public int[] getTime() {
 		return Arrays.copyOf(time, time.length);
 	}
-	/**
-	 * Summary sentence for this block of code.
-	 * @return time
-	 * ...
-	 */
+	
 }
