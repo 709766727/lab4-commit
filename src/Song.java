@@ -11,16 +11,35 @@ public class Song {
 		this.artist = artist;
 		this.time = Arrays.copyOf(time, time.length);
 	}
+	/**
+	 * Summary sentence for this block of code. 
+	 * @this.title title
+	 * @this.artist artist
+	 * @this.time  time
+	 * ...
+	 */
 	
 	public String getTitle() {
 		return title;
 	}
-	
+	/**
+	 * Summary sentence for this block of code.
+	 * @return title
+	 */
 	public String getArtist() {
 		return artist;
 	}
-	
+	/**
+	 * Summary sentence for this block of code.
+	 * @return artist
+	 * ...
+	 */
 	public int[] getTime() {
 		return Arrays.copyOf(time, time.length);
 	}
+	/**
+	 * Summary sentence for this block of code.
+	 * @return time
+	 * ...
+	 */
 }
